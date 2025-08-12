@@ -5,7 +5,7 @@ import {
   addEmployee,
   updateEmployee,
   deleteEmployee
-} from './services/employeeService.js';
+} from './Services/employeeService.js';
 import { getStats } from './Services/statsService.js';
 import { getLatestNotification } from './Services/notificationService.js';
 import Swal from 'sweetalert2';
