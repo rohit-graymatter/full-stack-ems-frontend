@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:4000/api/notifications';
+const BASE_URL = 'https://full-stack-ems-backend.onrender.com/api/notifications';
 
 export const getLatestNotification = async () => {
   try {
